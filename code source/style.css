@@ -351,7 +351,7 @@ form .form textarea {
   font-size: 16px;
 }
 .container7 form .btn:hover {
-  background-color: blue;
+  background-color: grey;
 }
 
 .btn {
@@ -430,7 +430,8 @@ form .form textarea {
     display: flex;
   }
   .navbar a {
-    padding-right: 1em;
+    margin-right: 1em;
+    padding: 1em;
     text-decoration: none;
   }
   .container2 {
