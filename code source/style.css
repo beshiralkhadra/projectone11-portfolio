@@ -33,15 +33,15 @@ body {
   width: 3em;
   height: 3em;
 }
-.nav {
+.navbar {
   display: none;
 }
 
-.nav ul li a {
+.navbar ul li a {
   color: #232a32;
 }
 
-.nav ul li a:hover {
+.navbar ul li a:hover {
   background-color: #ffc107;
   border-radius: 20px;
 }
@@ -135,6 +135,12 @@ p {
   background-color: #ffde29;
   color: black;
   padding: 1em;
+}
+.container4 .experiance h1 {
+  margin-left: 1.2em;
+}
+.container4 .skills h1 {
+  margin-left: 1.2em;
 }
 ul {
   list-style: none;
@@ -286,7 +292,7 @@ ul {
   padding: 1em;
   width: 50%;
   text-align: center;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   border-bottom: solid black 1px;
 }
 
@@ -417,13 +423,13 @@ form .form textarea {
     width: 3em;
     height: 3em;
   }
-  .nav {
+  .navbar {
     display: block;
   }
-  .nav ul {
+  .navbar ul {
     display: flex;
   }
-  .nav a {
+  .navbar a {
     padding-right: 1em;
     text-decoration: none;
   }
@@ -485,7 +491,7 @@ form .form textarea {
 
   .container6 ul {
     display: grid;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(3, 33%);
   }
 
   .big {
