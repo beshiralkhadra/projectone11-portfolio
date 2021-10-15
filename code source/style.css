@@ -28,6 +28,8 @@ body {
   padding: 1em;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 .container .logo img {
   width: 3em;
@@ -55,6 +57,36 @@ body {
   width: 10em;
   height: 10em;
   border-radius: 50%;
+}
+/* aside navbar */
+aside {
+  height: calc(100vh - 5em);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  padding: 0 1em;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  visibility: hidden;
+}
+aside ul {
+  overflow: hidden;
+  padding: 1em;
+  overflow: hidden;
+}
+aside ul li {
+  padding: 1em 0;
+}
+aside ul li a {
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 1em;
+}
+aside ul li a:hover {
+  background-color: #ffc107;
+  border-radius: 20px;
 }
 
 /* mainsection  */
@@ -415,9 +447,13 @@ form .form textarea {
   .burger {
     display: none;
   }
+
   .container {
     position: sticky;
     top: 0px;
+  }
+  aside {
+    display: none;
   }
   .container .logo img {
     width: 3em;
